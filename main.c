@@ -1,6 +1,10 @@
 #include <studio.h>
 
 int main(void){
-    printf("hello world");
-    printf("hello world %d", i);
+    int i = 10;
+    while(i < 10){
+        printf("hello world %d", i);
+        i++;
+    }
+    return 0;
 }
